@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath,amssymb,amsthm,amsfonts,graphicx,cite,mathrsfs}
+\usepackage[retainorgcmds]{IEEEtrantools}
+
+\newtheorem{problem}{Problem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newenvironment{solution}{\emph{Solution. }}{\qed\newline}
+\renewcommand{\vec}{\ensuremath{\mathbf}}
+\newcommand{\norm}[1]{\lVert #1 \rVert}
+\newcommand{\iner}[1]{\langle #1 \rangle}
+\newcommand{\pare}[1]{\left( #1 \right)}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\Pj}{\ensuremath{\mathbb{P}}}
+\newcommand{\E}{\ensuremath{\mathscr{E}}}
+
+\DeclareMathOperator{\Rl}{Re}
+
+\begin{document}
+
+\title{Elliptic Curve Diffie–Hellman RSA}
+\author{Seongjin Cho (Josh)}
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+Public key cryptography has changed our life significantly. Through development of Elliptic curve, we could be able to use smaller key size with fast performance in approximately same degree of security. Much of our the work in this paper is based on Professor Neal Koblitz's  \emph{A Course in Number Theory and Cryptography}~\cite{Neal2}.
+
+We will first introduce some terminologies and background information about basic Diffie-Hellman cryptosystem. We then briefly define and enumerate several properties of elliptic curve to emphasize what aspect of elliptic curve improved the previous RSA cryptosystem. Next, we will analyze the key establishment procedure using analogue between Alice and Bob. Then we will finish our paper with pseudocode and further possible application.
+
+
+\section{Some Background Knowledge}
+\begin{enumerate}
+\item I will assume as little as possible.
+\item I am adding this just because it is
+\item This list will be deleted in final draft!
+\end{enumerate}
+
+\subsection{Diffie-Hellman}
+
+
+\subsection{Elliptic curve}
+In our paper, we define elliptic curve to be slightly more restrictive because other kind of elliptic curves are unnecessarily.
+\begin{definition}
+Let $f(x)$ be a cubic polynomial without terms in characteristic $2$ and have distinct roots. Then the solutions to the equation
+\begin{equation}
+y^2 = f(x) \label{elliptic}
+\end{equation}
+are called the points of the elliptic curve defined by \ref{elliptic}, and we will usually use $F(x,y) = y^2 - f(x) = 0$ instead of the form \ref{elliptic}.
+\end{definition}
+
+\section{Elliptic Curve Diffie–Hellman}
+
+\subsection{elliptic curve Diffie-Hellman}
+
+\section{Algorithm}
+
+\subsection{Pseudocode}
+
+\newpage
+
+\bibliography{bib}{}
+\bibliographystyle{plain}
+
+\end{document}
