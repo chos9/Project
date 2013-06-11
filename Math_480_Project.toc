@@ -1,8 +1,6 @@
 \contentsline {section}{\numberline {1}Introduction}{2}
 \contentsline {section}{\numberline {2}Some Background Knowledge}{2}
-\contentsline {subsection}{\numberline {2.1}Diffie-Hellman}{2}
-\contentsline {subsection}{\numberline {2.2}Elliptic curve}{2}
-\contentsline {section}{\numberline {3}Elliptic Curve Diffie–Hellman}{3}
-\contentsline {subsection}{\numberline {3.1}elliptic curve Diffie-Hellman}{3}
-\contentsline {section}{\numberline {4}Algorithm}{3}
-\contentsline {subsection}{\numberline {4.1}Pseudocode}{3}
+\contentsline {section}{\numberline {3}Elliptic curve}{3}
+\contentsline {subsection}{\numberline {3.1}Points on the elliptic curve}{3}
+\contentsline {section}{\numberline {4}Discrete Logarithm Problem on E}{5}
+\contentsline {section}{\numberline {5}Elliptic Curve Diffie–Hellman}{6}
